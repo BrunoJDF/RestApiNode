@@ -1,8 +1,7 @@
 import { Router } from 'express';
-import { deleteProject } from '../controllers/project.controller';
 const router = Router();
 
-import { createTask, deleteTask, getOneTask, getOneTaskByProject, getTasks } from "../controllers/task.controller";
+import { createTask, deleteTask, getOneTask, getOneTaskByProject, getTasks } from '../controllers/task.controller';
 
 router.post('/', createTask);
 router.get('/', getTasks);
