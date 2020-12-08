@@ -16,3 +16,5 @@
 - npm install nodemon -D
 ## MODULO @babel/node -D
 - npm install @babel/node -D
+## MODULO jsonwebtoken
+- npm install jsonwebtoken
